@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9046" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9035"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FindVC"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <viewController restorationIdentifier="FindVC-XIB" id="I58-rE-DTa" customClass="FindVC">
+            <layoutGuides>
+                <viewControllerLayoutGuide type="top" id="u6S-wA-Vn7"/>
+                <viewControllerLayoutGuide type="bottom" id="Dip-Vm-bqm"/>
+            </layoutGuides>
+            <view key="view" contentMode="scaleToFill" id="Tc8-fD-cpF">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                <animations/>
+            </view>
+            <extendedEdge key="edgesForExtendedLayout"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <point key="canvasLocation" x="291" y="123"/>
+        </viewController>
+    </objects>
+</document>

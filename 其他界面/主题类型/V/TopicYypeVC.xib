@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9046" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9035"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TopicYypeVC">
+            <connections>
+                <outlet property="collectionView" destination="ODD-n9-ddf" id="5En-gd-yS4"/>
+                <outlet property="scorllView" destination="H02-cu-8vh" id="MgW-JC-COl"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="ODD-n9-ddf">
+                    <rect key="frame" x="-8" y="217" width="320" height="488"/>
+                    <animations/>
+                    <color key="backgroundColor" red="0.69229914103633372" green="0.69297338026662492" blue="0.73427483974358976" alpha="1" colorSpace="calibratedRGB"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="jyh-6n-iqK">
+                        <size key="itemSize" width="50" height="50"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                </collectionView>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="H02-cu-8vh">
+                    <rect key="frame" x="-8" y="85" width="320" height="80"/>
+                    <animations/>
+                    <color key="backgroundColor" red="0.2572716346153846" green="0.2572716346153846" blue="0.2572716346153846" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="80" id="mvh-5m-LPx"/>
+                    </constraints>
+                </scrollView>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="H02-cu-8vh" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="64" id="3R5-cH-fib"/>
+                <constraint firstItem="ODD-n9-ddf" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Cww-mY-rfz"/>
+                <constraint firstAttribute="bottom" secondItem="ODD-n9-ddf" secondAttribute="bottom" id="Fbo-cs-kY8"/>
+                <constraint firstItem="ODD-n9-ddf" firstAttribute="top" secondItem="H02-cu-8vh" secondAttribute="bottom" id="Vcq-k9-oiR"/>
+                <constraint firstAttribute="trailing" secondItem="ODD-n9-ddf" secondAttribute="trailing" id="l9h-SF-FWB"/>
+                <constraint firstItem="H02-cu-8vh" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="o36-fq-LuS"/>
+                <constraint firstAttribute="trailing" secondItem="H02-cu-8vh" secondAttribute="trailing" id="qCb-5j-04W"/>
+            </constraints>
+            <point key="canvasLocation" x="237" y="296"/>
+        </view>
+    </objects>
+</document>
